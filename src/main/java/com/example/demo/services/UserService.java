@@ -19,6 +19,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * Service related with user functionalities
+ * @version: 02/01/2023
+ */
 @Service
 public class UserService {
     private List<User> userList;
@@ -42,6 +46,7 @@ public class UserService {
         return userList;
     }
 
+<<<<<<< HEAD
     public List<User> FindUserCategory(List<Category> categories) {
         List<User> userList2 = new ArrayList<User>();
         categories.forEach(category -> {
@@ -55,5 +60,9 @@ public class UserService {
         });
 
         return userList2.stream().distinct().collect(Collectors.toList());
+=======
+    public List<User> FindCategory() {
+        return null;
+>>>>>>> fe40fb1645400fa396448bceb276960324b09fe8
     }
 }
