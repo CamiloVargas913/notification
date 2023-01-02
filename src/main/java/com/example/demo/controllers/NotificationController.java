@@ -12,17 +12,10 @@ import java.util.List;
 @RestController
 @RequestMapping("/notification")
 public class NotificationController {
-//    @Autowired
-//    private NotificationService notificationService;
     @Autowired
-    private UserService userService;
-//    @PostMapping()
-//    public void NotificationUsers(@RequestBody NotificationDTO data){
-//        notificationService.SendNotificactio(data);
-//    }
-
-    @GetMapping ()
-    public List<User> NotificationUsers(){
-       return userService.GetAllusers();
+    private NotificationService notificationService;
+    @PostMapping()
+    public void NotificationUsers(@RequestBody NotificationDTO data){
+        notificationService.SendNotificaction(data);
     }
 }

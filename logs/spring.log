@@ -1,16 +1,1247 @@
-2023-01-02T12:35:47.699-05:00  INFO 18428 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 18428 (D:\Proyectos\Artemisa\javaSpringBoot\target\classes started by kmilo in D:\Proyectos\Artemisa\javaSpringBoot)
-2023-01-02T12:35:47.701-05:00  INFO 18428 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
-2023-01-02T12:35:47.746-05:00  INFO 18428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-01-02T12:35:47.746-05:00  INFO 18428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-01-02T12:35:48.531-05:00  INFO 18428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-01-02T12:35:48.541-05:00  INFO 18428 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-01-02T12:35:48.541-05:00  INFO 18428 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
-2023-01-02T12:35:48.586-05:00  INFO 18428 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-01-02T12:35:48.587-05:00  INFO 18428 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 840 ms
-2023-01-02T12:35:48.903-05:00  INFO 18428 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-01-02T12:35:48.936-05:00  INFO 18428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-01-02T12:35:48.943-05:00  INFO 18428 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.583 seconds (process running for 2.152)
-2023-01-02T12:36:09.329-05:00  INFO 18428 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-01-02T12:36:09.330-05:00  INFO 18428 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-01-02T12:36:09.331-05:00  INFO 18428 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-01-02T12:36:09.402-05:00 ERROR 18428 --- [http-nio-8080-exec-2] c.example.demo.services.PruebaService    : / by zero
+2023-01-02T17:22:01.143-05:00  INFO 8976 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-02T17:22:01.143-05:00  INFO 8976 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-02T17:22:01.144-05:00  INFO 8976 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-02T17:22:01.160-05:00  WARN 8976 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2023-01-02T17:22:09.360-05:00  INFO 8976 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:23:03.967-05:00  INFO 11320 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 11320 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T17:23:03.970-05:00  INFO 11320 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T17:23:04.059-05:00  INFO 11320 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T17:23:04.059-05:00  INFO 11320 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T17:23:05.166-05:00  INFO 11320 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T17:23:05.923-05:00  INFO 11320 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T17:23:05.924-05:00  INFO 11320 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T17:23:05.986-05:00  INFO 11320 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T17:23:05.987-05:00  INFO 11320 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1927 ms
+2023-01-02T17:23:06.531-05:00  INFO 11320 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T17:23:06.577-05:00  INFO 11320 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T17:23:06.589-05:00  INFO 11320 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 3.076 seconds (process running for 4.498)
+2023-01-02T17:23:21.703-05:00  INFO 11320 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-02T17:23:21.704-05:00  INFO 11320 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-02T17:23:21.705-05:00  INFO 11320 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-02T17:24:20.320-05:00  INFO 11320 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:25:27.010-05:00  INFO 11320 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:26:51.832-05:00  INFO 3812 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 3812 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T17:26:51.833-05:00  INFO 3812 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T17:26:51.879-05:00  INFO 3812 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T17:26:51.879-05:00  INFO 3812 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T17:26:52.834-05:00  INFO 3812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T17:26:52.843-05:00  INFO 3812 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T17:26:52.845-05:00  INFO 3812 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T17:26:52.891-05:00  INFO 3812 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T17:26:52.891-05:00  INFO 3812 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1011 ms
+2023-01-02T17:26:53.222-05:00  INFO 3812 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T17:26:53.262-05:00  INFO 3812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T17:26:53.269-05:00  INFO 3812 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.795 seconds (process running for 2.384)
+2023-01-02T17:27:39.228-05:00  INFO 11472 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 11472 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T17:27:39.230-05:00  INFO 11472 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T17:27:39.278-05:00  INFO 11472 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T17:27:39.278-05:00  INFO 11472 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T17:27:40.114-05:00  INFO 11472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T17:27:40.122-05:00  INFO 11472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T17:27:40.122-05:00  INFO 11472 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T17:27:40.171-05:00  INFO 11472 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T17:27:40.171-05:00  INFO 11472 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 893 ms
+2023-01-02T17:27:40.459-05:00  INFO 11472 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T17:27:40.492-05:00  INFO 11472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T17:27:40.499-05:00  INFO 11472 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.627 seconds (process running for 2.224)
+2023-01-02T17:27:44.857-05:00  INFO 11472 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-02T17:27:44.858-05:00  INFO 11472 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-02T17:27:44.859-05:00  INFO 11472 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-02T17:28:56.101-05:00  INFO 10176 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 10176 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T17:28:56.103-05:00  INFO 10176 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T17:28:56.153-05:00  INFO 10176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T17:28:56.153-05:00  INFO 10176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T17:28:57.008-05:00  INFO 10176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T17:28:57.017-05:00  INFO 10176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T17:28:57.018-05:00  INFO 10176 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T17:28:57.063-05:00  INFO 10176 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T17:28:57.063-05:00  INFO 10176 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 910 ms
+2023-01-02T17:28:57.363-05:00  INFO 10176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T17:28:57.399-05:00  INFO 10176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T17:28:57.407-05:00  INFO 10176 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.674 seconds (process running for 2.227)
+2023-01-02T17:29:01.877-05:00  INFO 10176 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-02T17:29:01.877-05:00  INFO 10176 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-02T17:29:01.878-05:00  INFO 10176 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-02T17:29:01.987-05:00 ERROR 10176 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.util.ConcurrentModificationException] with root cause
+
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1513) ~[na:na]
+	at com.example.demo.services.UserService.lambda$FindCategory$2(UserService.java:56) ~[classes/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at com.example.demo.services.UserService.FindCategory(UserService.java:55) ~[classes/:na]
+	at com.example.demo.services.NotificationService.SendNotificaction(NotificationService.java:23) ~[classes/:na]
+	at com.example.demo.controllers.NotificationController.NotificationUsers(NotificationController.java:19) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.3.jar:6.0.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.3.jar:6.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-6.0.3.jar:6.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.3.jar:6.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.3.jar:6.0.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.3.jar:6.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080) ~[spring-webmvc-6.0.3.jar:6.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973) ~[spring-webmvc-6.0.3.jar:6.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1010) ~[spring-webmvc-6.0.3.jar:6.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:913) ~[spring-webmvc-6.0.3.jar:6.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731) ~[tomcat-embed-core-10.1.4.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:884) ~[spring-webmvc-6.0.3.jar:6.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814) ~[tomcat-embed-core-10.1.4.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.3.jar:6.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.3.jar:6.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.3.jar:6.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.3.jar:6.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.3.jar:6.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.3.jar:6.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-01-02T17:29:10.728-05:00 ERROR 10176 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.util.ConcurrentModificationException] with root cause
+
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1513) ~[na:na]
+	at com.example.demo.services.UserService.lambda$FindCategory$2(UserService.java:56) ~[classes/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at com.example.demo.services.UserService.FindCategory(UserService.java:55) ~[classes/:na]
+	at com.example.demo.services.NotificationService.SendNotificaction(NotificationService.java:23) ~[classes/:na]
+	at com.example.demo.controllers.NotificationController.NotificationUsers(NotificationController.java:19) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.3.jar:6.0.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.3.jar:6.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-6.0.3.jar:6.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.3.jar:6.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.3.jar:6.0.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.3.jar:6.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080) ~[spring-webmvc-6.0.3.jar:6.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973) ~[spring-webmvc-6.0.3.jar:6.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1010) ~[spring-webmvc-6.0.3.jar:6.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:913) ~[spring-webmvc-6.0.3.jar:6.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731) ~[tomcat-embed-core-10.1.4.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:884) ~[spring-webmvc-6.0.3.jar:6.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814) ~[tomcat-embed-core-10.1.4.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.3.jar:6.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.3.jar:6.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.3.jar:6.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.3.jar:6.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.3.jar:6.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.3.jar:6.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-01-02T17:30:14.925-05:00  INFO 2636 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 2636 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T17:30:14.927-05:00  INFO 2636 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T17:30:14.970-05:00  INFO 2636 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T17:30:14.971-05:00  INFO 2636 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T17:30:15.836-05:00  INFO 2636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T17:30:15.845-05:00  INFO 2636 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T17:30:15.846-05:00  INFO 2636 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T17:30:15.891-05:00  INFO 2636 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T17:30:15.892-05:00  INFO 2636 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 920 ms
+2023-01-02T17:30:16.197-05:00  INFO 2636 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T17:30:16.239-05:00  INFO 2636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T17:30:16.246-05:00  INFO 2636 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.689 seconds (process running for 2.286)
+2023-01-02T17:30:20.755-05:00  INFO 2636 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-02T17:30:20.756-05:00  INFO 2636 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-02T17:30:20.758-05:00  INFO 2636 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-01-02T17:30:38.217-05:00  INFO 10008 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 10008 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T17:30:38.219-05:00  INFO 10008 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T17:30:38.263-05:00  INFO 10008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T17:30:38.263-05:00  INFO 10008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T17:30:39.131-05:00  INFO 10008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T17:30:39.140-05:00  INFO 10008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T17:30:39.141-05:00  INFO 10008 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T17:30:39.199-05:00  INFO 10008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T17:30:39.199-05:00  INFO 10008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 936 ms
+2023-01-02T17:30:39.535-05:00  INFO 10008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T17:30:39.570-05:00  INFO 10008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T17:30:39.578-05:00  INFO 10008 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.716 seconds (process running for 2.296)
+2023-01-02T17:30:47.127-05:00  INFO 10008 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-02T17:30:47.128-05:00  INFO 10008 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-02T17:30:47.128-05:00  INFO 10008 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-02T17:31:19.220-05:00  INFO 11860 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 11860 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T17:31:19.222-05:00  INFO 11860 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T17:31:19.268-05:00  INFO 11860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T17:31:19.269-05:00  INFO 11860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T17:31:20.073-05:00  INFO 11860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T17:31:20.083-05:00  INFO 11860 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T17:31:20.084-05:00  INFO 11860 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T17:31:20.127-05:00  INFO 11860 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T17:31:20.128-05:00  INFO 11860 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 859 ms
+2023-01-02T17:31:20.472-05:00  INFO 11860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T17:31:20.513-05:00  INFO 11860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T17:31:20.521-05:00  INFO 11860 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.656 seconds (process running for 2.355)
+2023-01-02T17:31:28.206-05:00  INFO 11860 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-02T17:31:28.207-05:00  INFO 11860 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-02T17:31:28.208-05:00  INFO 11860 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-02T17:32:35.365-05:00  INFO 17076 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 17076 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T17:32:35.367-05:00  INFO 17076 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T17:32:35.409-05:00  INFO 17076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T17:32:35.409-05:00  INFO 17076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T17:32:36.230-05:00  INFO 17076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T17:32:36.239-05:00  INFO 17076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T17:32:36.239-05:00  INFO 17076 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T17:32:36.283-05:00  INFO 17076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T17:32:36.283-05:00  INFO 17076 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 874 ms
+2023-01-02T17:32:36.572-05:00  INFO 17076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T17:32:36.606-05:00  INFO 17076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T17:32:36.613-05:00  INFO 17076 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.612 seconds (process running for 2.22)
+2023-01-02T17:32:39.720-05:00  INFO 17076 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-02T17:32:39.721-05:00  INFO 17076 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-02T17:32:39.721-05:00  INFO 17076 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-02T17:32:39.795-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.795-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:32:39.795-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: null
+2023-01-02T17:32:39.795-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:32:39.795-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.795-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.795-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:32:39.795-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: null
+2023-01-02T17:32:39.795-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:32:39.795-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.795-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: null
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: null
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: null
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: null
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: null
+2023-01-02T17:32:39.796-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:32:39.797-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.797-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.797-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:32:39.798-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: null
+2023-01-02T17:32:39.798-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:32:39.798-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.798-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.798-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:32:39.798-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: null
+2023-01-02T17:32:39.798-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:32:39.798-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.798-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: null
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: null
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: null
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: null
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.799-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:32:39.800-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: null
+2023-01-02T17:32:39.800-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:32:39.800-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.800-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.800-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:32:39.800-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: null
+2023-01-02T17:32:39.800-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:32:39.800-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.800-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:32:39.800-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:32:39.800-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: null
+2023-01-02T17:32:39.800-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:32:39.800-05:00  INFO 17076 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.588-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.589-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:04.589-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Content: mensaje
+2023-01-02T17:34:04.589-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:04.589-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.589-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.589-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:04.589-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Content: mensaje
+2023-01-02T17:34:04.589-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:04.589-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.589-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.589-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:04.589-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Content: mensaje
+2023-01-02T17:34:04.589-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:04.589-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.589-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.589-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:04.590-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Content: mensaje
+2023-01-02T17:34:04.590-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:04.590-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.590-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.590-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:04.590-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Content: mensaje
+2023-01-02T17:34:04.590-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:04.590-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.590-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.590-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Content: mensaje
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Content: mensaje
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Content: mensaje
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Content: mensaje
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Content: mensaje
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Content: mensaje
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Content: mensaje
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Content: mensaje
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.591-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.592-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:04.592-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Content: mensaje
+2023-01-02T17:34:04.592-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:04.592-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.593-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.593-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:04.593-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Content: mensaje
+2023-01-02T17:34:04.593-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:04.593-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.593-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:04.593-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:04.593-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Content: mensaje
+2023-01-02T17:34:04.593-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:04.593-05:00  INFO 17076 --- [http-nio-8080-exec-5] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:22.830-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:22.831-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:34:22.832-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:22.832-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.832-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.832-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:22.832-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:34:22.832-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:22.832-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.832-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.832-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:22.832-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:34:22.832-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:22.832-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.832-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.832-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:22.832-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:34:22.833-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:22.834-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.834-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.834-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:22.834-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:34:22.835-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:22.835-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.835-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:34:22.835-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:34:22.835-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:34:22.835-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:34:22.835-05:00  INFO 17076 --- [http-nio-8080-exec-6] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:38:44.907-05:00  INFO 22544 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 22544 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T17:38:44.910-05:00  INFO 22544 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T17:38:44.969-05:00  INFO 22544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T17:38:44.970-05:00  INFO 22544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T17:38:46.066-05:00  INFO 22544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T17:38:46.085-05:00  INFO 22544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T17:38:46.086-05:00  INFO 22544 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T17:38:46.149-05:00  INFO 22544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T17:38:46.150-05:00  INFO 22544 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1179 ms
+2023-01-02T17:38:46.640-05:00  INFO 22544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T17:38:46.676-05:00  INFO 22544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T17:38:46.683-05:00  INFO 22544 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.197 seconds (process running for 3.017)
+2023-01-02T17:38:59.271-05:00  INFO 22544 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-02T17:38:59.272-05:00  INFO 22544 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-02T17:38:59.275-05:00  INFO 22544 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-01-02T17:38:59.350-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:38:59.351-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:38:59.351-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:38:59.351-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:38:59.351-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:38:59.351-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:38:59.351-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:38:59.351-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:38:59.351-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:38:59.351-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:38:59.351-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:38:59.351-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:38:59.351-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:38:59.351-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:38:59.351-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:38:59.351-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:38:59.352-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:38:59.352-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:38:59.352-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:38:59.352-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:38:59.352-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:38:59.352-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:38:59.353-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:38:59.353-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:38:59.353-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:38:59.353-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:38:59.353-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:38:59.353-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:38:59.353-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:38:59.354-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:38:59.354-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:38:59.354-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:38:59.354-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:38:59.354-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:38:59.354-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:38:59.354-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:38:59.354-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T17:38:59.354-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T17:38:59.354-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T17:38:59.354-05:00  INFO 22544 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T17:54:33.264-05:00  INFO 10892 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 10892 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T17:54:33.266-05:00  INFO 10892 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T17:54:33.309-05:00  INFO 10892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T17:54:33.309-05:00  INFO 10892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T17:54:34.352-05:00  INFO 10892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T17:54:34.362-05:00  INFO 10892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T17:54:34.363-05:00  INFO 10892 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T17:54:34.411-05:00  INFO 10892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T17:54:34.412-05:00  INFO 10892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1101 ms
+2023-01-02T17:54:34.469-05:00  WARN 10892 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'notificationController': Unsatisfied dependency expressed through field 'notificationService': Error creating bean with name 'notificationService': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService' defined in file [D:\Proyectos\Artemisa\notify\target\classes\com\example\demo\services\UserService.class]: Failed to instantiate [com.example.demo.services.UserService]: Constructor threw exception
+2023-01-02T17:54:34.473-05:00  INFO 10892 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-02T17:54:34.502-05:00  INFO 10892 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-01-02T17:54:34.525-05:00 ERROR 10892 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'notificationController': Unsatisfied dependency expressed through field 'notificationService': Error creating bean with name 'notificationService': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService' defined in file [D:\Proyectos\Artemisa\notify\target\classes\com\example\demo\services\UserService.class]: Failed to instantiate [com.example.demo.services.UserService]: Constructor threw exception
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:712) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:127) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:481) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.1.jar:3.0.1]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.1.jar:3.0.1]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'notificationService': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService' defined in file [D:\Proyectos\Artemisa\notify\target\classes\com\example\demo\services\UserService.class]: Failed to instantiate [com.example.demo.services.UserService]: Constructor threw exception
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:712) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:127) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:481) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:709) ~[spring-beans-6.0.3.jar:6.0.3]
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService' defined in file [D:\Proyectos\Artemisa\notify\target\classes\com\example\demo\services\UserService.class]: Failed to instantiate [com.example.demo.services.UserService]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1306) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1198) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:709) ~[spring-beans-6.0.3.jar:6.0.3]
+	... 37 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.services.UserService]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:223) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1300) ~[spring-beans-6.0.3.jar:6.0.3]
+	... 48 common frames omitted
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: users.json (The system cannot find the file specified)
+	at com.example.demo.services.UserService.<init>(UserService.java:35) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:197) ~[spring-beans-6.0.3.jar:6.0.3]
+	... 50 common frames omitted
+Caused by: java.io.FileNotFoundException: users.json (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219) ~[na:na]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158) ~[na:na]
+	at com.fasterxml.jackson.core.TokenStreamFactory._fileInputStream(TokenStreamFactory.java:262) ~[jackson-core-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.core.JsonFactory.createParser(JsonFactory.java:1030) ~[jackson-core-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3319) ~[jackson-databind-2.11.1.jar:2.11.1]
+	at com.example.demo.services.UserService.<init>(UserService.java:33) ~[classes/:na]
+	... 54 common frames omitted
+
+2023-01-02T17:57:01.268-05:00  INFO 13532 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 13532 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T17:57:01.270-05:00  INFO 13532 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T17:57:01.315-05:00  INFO 13532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T17:57:01.315-05:00  INFO 13532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T17:57:02.140-05:00  INFO 13532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T17:57:02.149-05:00  INFO 13532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T17:57:02.150-05:00  INFO 13532 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T17:57:02.206-05:00  INFO 13532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T17:57:02.206-05:00  INFO 13532 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 890 ms
+2023-01-02T17:57:02.305-05:00  WARN 13532 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'notificationController': Unsatisfied dependency expressed through field 'notificationService': Error creating bean with name 'notificationService': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService' defined in file [D:\Proyectos\Artemisa\notify\target\classes\com\example\demo\services\UserService.class]: Failed to instantiate [com.example.demo.services.UserService]: Constructor threw exception
+2023-01-02T17:57:02.307-05:00  INFO 13532 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-02T17:57:02.317-05:00  INFO 13532 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-01-02T17:57:02.335-05:00 ERROR 13532 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'notificationController': Unsatisfied dependency expressed through field 'notificationService': Error creating bean with name 'notificationService': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService' defined in file [D:\Proyectos\Artemisa\notify\target\classes\com\example\demo\services\UserService.class]: Failed to instantiate [com.example.demo.services.UserService]: Constructor threw exception
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:712) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:127) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:481) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.1.jar:3.0.1]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.1.jar:3.0.1]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'notificationService': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService' defined in file [D:\Proyectos\Artemisa\notify\target\classes\com\example\demo\services\UserService.class]: Failed to instantiate [com.example.demo.services.UserService]: Constructor threw exception
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:712) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:127) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:481) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:709) ~[spring-beans-6.0.3.jar:6.0.3]
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService' defined in file [D:\Proyectos\Artemisa\notify\target\classes\com\example\demo\services\UserService.class]: Failed to instantiate [com.example.demo.services.UserService]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1306) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1198) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:709) ~[spring-beans-6.0.3.jar:6.0.3]
+	... 37 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.services.UserService]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:223) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1300) ~[spring-beans-6.0.3.jar:6.0.3]
+	... 48 common frames omitted
+Caused by: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Name" (class com.example.demo.models.User), not marked as ignorable (6 known properties: "channels", "phoneNumber", "subscribed", "id", "email", "name"])
+ at [Source: (File); line: 4, column: 14] (through reference chain: java.util.ArrayList[0]->com.example.demo.models.User["Name"])
+	at com.example.demo.services.UserService.<init>(UserService.java:35) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:197) ~[spring-beans-6.0.3.jar:6.0.3]
+	... 50 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Name" (class com.example.demo.models.User), not marked as ignorable (6 known properties: "channels", "phoneNumber", "subscribed", "id", "email", "name"])
+ at [Source: (File); line: 4, column: 14] (through reference chain: java.util.ArrayList[0]->com.example.demo.models.User["Name"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61) ~[jackson-databind-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:855) ~[jackson-databind-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:1212) ~[jackson-databind-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1604) ~[jackson-databind-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1582) ~[jackson-databind-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:299) ~[jackson-databind-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:156) ~[jackson-databind-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:291) ~[jackson-databind-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:250) ~[jackson-databind-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:27) ~[jackson-databind-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4482) ~[jackson-databind-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3319) ~[jackson-databind-2.11.1.jar:2.11.1]
+	at com.example.demo.services.UserService.<init>(UserService.java:33) ~[classes/:na]
+	... 54 common frames omitted
+
+2023-01-02T17:58:37.681-05:00  INFO 5896 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 5896 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T17:58:37.683-05:00  INFO 5896 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T17:58:37.727-05:00  INFO 5896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T17:58:37.727-05:00  INFO 5896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T17:58:38.534-05:00  INFO 5896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T17:58:38.947-05:00  INFO 5896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T17:58:38.948-05:00  INFO 5896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T17:58:38.990-05:00  INFO 5896 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T17:58:38.990-05:00  INFO 5896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1262 ms
+2023-01-02T17:58:39.320-05:00  INFO 5896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T17:58:39.355-05:00  INFO 5896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T17:58:39.366-05:00  INFO 5896 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.054 seconds (process running for 2.669)
+2023-01-02T18:00:03.160-05:00  INFO 11608 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 11608 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T18:00:03.162-05:00  INFO 11608 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T18:00:03.205-05:00  INFO 11608 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T18:00:03.205-05:00  INFO 11608 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T18:00:04.050-05:00  INFO 11608 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T18:00:04.060-05:00  INFO 11608 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T18:00:04.060-05:00  INFO 11608 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T18:00:04.105-05:00  INFO 11608 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T18:00:04.105-05:00  INFO 11608 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 900 ms
+2023-01-02T18:00:04.447-05:00  INFO 11608 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T18:00:04.471-05:00  INFO 11608 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T18:00:04.477-05:00  INFO 11608 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.683 seconds (process running for 2.242)
+2023-01-02T18:00:22.123-05:00  INFO 21992 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 21992 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T18:00:22.126-05:00  INFO 21992 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T18:00:22.185-05:00  INFO 21992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T18:00:22.185-05:00  INFO 21992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T18:00:23.143-05:00  INFO 21992 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T18:00:23.162-05:00  INFO 21992 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T18:00:23.162-05:00  INFO 21992 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T18:00:23.216-05:00  INFO 21992 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T18:00:23.217-05:00  INFO 21992 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1031 ms
+2023-01-02T18:00:23.670-05:00  INFO 21992 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T18:00:23.700-05:00  INFO 21992 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T18:00:23.708-05:00  INFO 21992 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.042 seconds (process running for 2.863)
+2023-01-02T18:00:58.941-05:00  INFO 17076 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 17076 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T18:00:58.945-05:00  INFO 17076 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T18:00:59.003-05:00  INFO 17076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T18:00:59.003-05:00  INFO 17076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T18:00:59.958-05:00  INFO 17076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T18:00:59.969-05:00  INFO 17076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T18:00:59.969-05:00  INFO 17076 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T18:01:00.028-05:00  INFO 17076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T18:01:00.029-05:00  INFO 17076 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1026 ms
+2023-01-02T18:01:38.521-05:00  INFO 17076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T18:01:38.547-05:00  INFO 17076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T18:01:38.590-05:00  INFO 17076 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 40.078 seconds (process running for 40.866)
+2023-01-02T18:01:55.598-05:00  INFO 16516 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 16516 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T18:01:55.601-05:00  INFO 16516 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T18:01:55.647-05:00  INFO 16516 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T18:01:55.647-05:00  INFO 16516 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T18:01:56.509-05:00  INFO 16516 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T18:01:56.517-05:00  INFO 16516 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T18:01:56.518-05:00  INFO 16516 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T18:01:56.563-05:00  INFO 16516 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T18:01:56.564-05:00  INFO 16516 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 915 ms
+2023-01-02T18:01:56.911-05:00  INFO 16516 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T18:01:56.943-05:00  INFO 16516 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T18:01:56.952-05:00  INFO 16516 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.73 seconds (process running for 2.42)
+2023-01-02T18:02:03.463-05:00  INFO 16516 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-02T18:02:03.465-05:00  INFO 16516 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-02T18:02:03.466-05:00  INFO 16516 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-02T18:02:03.506-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.506-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T18:02:03.506-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:02:03.506-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Category: [com.example.demo.models.Category@47e7c6bf, com.example.demo.models.Category@3f261643]
+2023-01-02T18:02:03.507-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:02:03.507-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.507-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.507-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T18:02:03.507-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:02:03.507-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: Email
+2023-01-02T18:02:03.507-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.508-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.508-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:02:03.508-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:02:03.508-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Category: [com.example.demo.models.Category@5854f34, com.example.demo.models.Category@5ab0e9b4, com.example.demo.models.Category@231b0e63]
+2023-01-02T18:02:03.508-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:02:03.508-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.508-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.508-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:02:03.508-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:02:03.508-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: Push notification
+2023-01-02T18:02:03.508-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.509-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.509-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:02:03.509-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:02:03.509-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: Email
+2023-01-02T18:02:03.509-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.509-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.509-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T18:02:03.509-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:02:03.510-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Category: [com.example.demo.models.Category@47e7c6bf, com.example.demo.models.Category@3f261643]
+2023-01-02T18:02:03.510-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:02:03.510-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.510-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.510-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T18:02:03.510-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:02:03.510-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: Email
+2023-01-02T18:02:03.510-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.510-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.510-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 02
+2023-01-02T18:02:03.510-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:02:03.510-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Category: [com.example.demo.models.Category@2c00904d, com.example.demo.models.Category@3d39616]
+2023-01-02T18:02:03.511-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:02:03.511-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.511-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.511-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 02
+2023-01-02T18:02:03.511-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:02:03.511-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: Push notification
+2023-01-02T18:02:03.511-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.511-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.511-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:02:03.512-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:02:03.512-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Category: [com.example.demo.models.Category@5854f34, com.example.demo.models.Category@5ab0e9b4, com.example.demo.models.Category@231b0e63]
+2023-01-02T18:02:03.512-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:02:03.512-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.512-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.512-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:02:03.512-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:02:03.512-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: Push notification
+2023-01-02T18:02:03.512-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.512-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:02:03.512-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:02:03.512-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:02:03.512-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: Email
+2023-01-02T18:02:03.512-05:00  INFO 16516 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:05:37.237-05:00  INFO 23784 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 23784 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T18:05:37.239-05:00  INFO 23784 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T18:05:37.291-05:00  INFO 23784 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T18:05:37.291-05:00  INFO 23784 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T18:05:38.236-05:00  INFO 23784 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T18:05:38.253-05:00  INFO 23784 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T18:05:38.254-05:00  INFO 23784 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T18:05:38.303-05:00  INFO 23784 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T18:05:38.303-05:00  INFO 23784 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1012 ms
+2023-01-02T18:05:58.643-05:00  INFO 23784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T18:05:58.698-05:00  INFO 23784 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T18:05:58.709-05:00  INFO 23784 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 21.913 seconds (process running for 22.868)
+2023-01-02T18:06:07.940-05:00  INFO 10528 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 10528 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T18:06:07.943-05:00  INFO 10528 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T18:06:08.000-05:00  INFO 10528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T18:06:08.000-05:00  INFO 10528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T18:06:09.076-05:00  INFO 10528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T18:06:09.086-05:00  INFO 10528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T18:06:09.086-05:00  INFO 10528 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T18:06:09.142-05:00  INFO 10528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T18:06:09.142-05:00  INFO 10528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1141 ms
+2023-01-02T18:06:23.171-05:00  INFO 10528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T18:06:23.207-05:00  INFO 10528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T18:06:23.216-05:00  INFO 10528 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 15.752 seconds (process running for 16.657)
+2023-01-02T18:06:32.973-05:00  INFO 10528 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-02T18:06:32.973-05:00  INFO 10528 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-02T18:06:32.973-05:00  INFO 10528 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-02T18:10:25.618-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.620-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T18:10:25.622-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:10:25.623-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:10:25.624-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.624-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.625-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T18:10:25.626-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:10:25.626-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: Email
+2023-01-02T18:10:25.627-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.628-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.628-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:10:25.629-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:10:25.630-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:10:25.630-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.631-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.632-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:10:25.633-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:10:25.633-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: Push notification
+2023-01-02T18:10:25.634-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.634-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.635-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:10:25.635-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:10:25.636-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: Email
+2023-01-02T18:10:25.637-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.638-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.639-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T18:10:25.639-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:10:25.640-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:10:25.640-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.641-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.641-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T18:10:25.642-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:10:25.643-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: Email
+2023-01-02T18:10:25.643-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.644-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.644-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 02
+2023-01-02T18:10:25.645-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:10:25.646-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:10:25.646-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.647-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.648-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 02
+2023-01-02T18:10:25.648-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:10:25.649-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: Push notification
+2023-01-02T18:10:25.649-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.650-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.651-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:10:25.651-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:10:25.652-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:10:25.652-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.653-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.655-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:10:25.656-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:10:25.656-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: Push notification
+2023-01-02T18:10:25.657-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.657-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:25.658-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:10:25.658-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:10:25.659-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: Email
+2023-01-02T18:10:25.660-05:00  INFO 10528 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:10:54.549-05:00  INFO 2360 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 2360 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T18:10:54.552-05:00  INFO 2360 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T18:10:54.611-05:00  INFO 2360 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T18:10:54.612-05:00  INFO 2360 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T18:10:55.653-05:00  INFO 2360 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T18:10:55.665-05:00  INFO 2360 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T18:10:55.666-05:00  INFO 2360 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T18:10:55.725-05:00  INFO 2360 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T18:10:55.725-05:00  INFO 2360 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1113 ms
+2023-01-02T18:11:05.559-05:00  INFO 2360 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T18:11:05.587-05:00  INFO 2360 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T18:11:05.594-05:00  INFO 2360 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 11.475 seconds (process running for 12.208)
+2023-01-02T18:11:12.791-05:00  INFO 2360 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-02T18:11:12.791-05:00  INFO 2360 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-02T18:11:12.792-05:00  INFO 2360 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-02T18:12:32.512-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:12:32.514-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T18:12:32.515-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:12:32.515-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:12:32.516-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:12:32.516-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:12:32.517-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T18:12:32.517-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:12:32.518-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: Email
+2023-01-02T18:12:32.518-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:12:32.519-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:12:32.520-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:12:32.520-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:12:32.520-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:12:32.521-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:12:32.521-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:12:32.522-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:12:32.523-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:12:32.523-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: Push notification
+2023-01-02T18:12:32.524-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:12:32.525-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:12:32.526-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:12:32.527-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:12:32.527-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: Email
+2023-01-02T18:12:32.528-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:12:32.528-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:12:32.529-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 02
+2023-01-02T18:12:32.529-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:12:32.529-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:12:32.531-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:12:32.531-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:12:32.532-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 02
+2023-01-02T18:12:32.532-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:12:32.533-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: Push notification
+2023-01-02T18:12:32.533-05:00  INFO 2360 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:13:22.333-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:13:22.335-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T18:13:22.335-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:13:22.336-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:13:22.337-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:13:22.337-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:13:22.338-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T18:13:22.339-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:13:22.339-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Channel: Email
+2023-01-02T18:13:22.340-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:13:22.340-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:13:22.341-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:13:22.342-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:13:22.342-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:13:22.343-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:13:22.344-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:13:22.345-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:13:22.345-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:13:22.346-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Channel: Push notification
+2023-01-02T18:13:22.346-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:13:22.347-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:13:22.347-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:13:22.348-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:13:22.348-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Channel: Email
+2023-01-02T18:13:22.349-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:13:22.349-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:13:22.350-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 02
+2023-01-02T18:13:22.350-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:13:22.351-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:13:22.352-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:13:22.353-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:13:22.353-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 02
+2023-01-02T18:13:22.354-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:13:22.355-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : Channel: Push notification
+2023-01-02T18:13:22.355-05:00  INFO 2360 --- [http-nio-8080-exec-3] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:13:28.348-05:00  INFO 22736 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 22736 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T18:13:28.350-05:00  INFO 22736 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T18:13:28.401-05:00  INFO 22736 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T18:13:28.402-05:00  INFO 22736 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T18:13:29.253-05:00  INFO 22736 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T18:13:29.263-05:00  INFO 22736 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T18:13:29.263-05:00  INFO 22736 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T18:13:29.307-05:00  INFO 22736 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T18:13:29.308-05:00  INFO 22736 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 905 ms
+2023-01-02T18:13:29.752-05:00  INFO 22736 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T18:13:29.783-05:00  INFO 22736 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T18:13:29.790-05:00  INFO 22736 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.815 seconds (process running for 2.45)
+2023-01-02T18:13:33.880-05:00  INFO 7204 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 7204 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T18:13:33.883-05:00  INFO 7204 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T18:13:33.943-05:00  INFO 7204 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T18:13:33.943-05:00  INFO 7204 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T18:13:34.946-05:00  INFO 7204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T18:13:34.955-05:00  INFO 7204 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T18:13:34.955-05:00  INFO 7204 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T18:13:35.008-05:00  INFO 7204 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T18:13:35.009-05:00  INFO 7204 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1066 ms
+2023-01-02T18:13:39.435-05:00  INFO 7204 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T18:13:39.464-05:00  INFO 7204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T18:13:39.472-05:00  INFO 7204 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 6.066 seconds (process running for 6.849)
+2023-01-02T18:13:42.643-05:00  INFO 7204 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-02T18:13:42.644-05:00  INFO 7204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-02T18:13:42.645-05:00  INFO 7204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-02T18:14:51.628-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:14:51.630-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T18:14:51.631-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:14:51.632-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:14:51.632-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:14:51.633-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:14:51.634-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 01
+2023-01-02T18:14:51.636-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:14:51.636-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: Email
+2023-01-02T18:14:51.637-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:14:51.638-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:14:51.638-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:14:51.639-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:14:51.639-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:14:51.640-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:14:51.640-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:14:51.641-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:14:51.642-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:14:51.643-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: Push notification
+2023-01-02T18:14:51.644-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:14:51.644-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:14:51.645-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:14:51.645-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:14:51.646-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: Email
+2023-01-02T18:14:51.646-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:14:51.647-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:14:51.648-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 02
+2023-01-02T18:14:51.648-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:14:51.649-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:14:51.650-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:14:51.651-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:14:51.652-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 02
+2023-01-02T18:14:51.652-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:14:51.653-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: Push notification
+2023-01-02T18:14:51.653-05:00  INFO 7204 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:14:56.278-05:00  INFO 11144 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 11144 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T18:14:56.281-05:00  INFO 11144 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T18:14:56.337-05:00  INFO 11144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T18:14:56.339-05:00  INFO 11144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T18:14:57.342-05:00  INFO 11144 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T18:14:57.358-05:00  INFO 11144 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T18:14:57.359-05:00  INFO 11144 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T18:14:57.405-05:00  INFO 11144 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T18:14:57.406-05:00  INFO 11144 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1066 ms
+2023-01-02T18:15:01.488-05:00  INFO 11144 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T18:15:01.519-05:00  INFO 11144 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T18:15:01.527-05:00  INFO 11144 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.703 seconds (process running for 6.528)
+2023-01-02T18:15:05.489-05:00  INFO 11144 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-02T18:15:05.489-05:00  INFO 11144 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-02T18:15:05.490-05:00  INFO 11144 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-02T18:15:43.642-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:15:43.644-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 02
+2023-01-02T18:15:43.644-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:15:43.645-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:15:43.645-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:15:43.646-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:15:43.647-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 02
+2023-01-02T18:15:43.649-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:15:43.649-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: Push notification
+2023-01-02T18:15:43.650-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:15:43.651-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:15:43.652-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:15:43.653-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:15:43.654-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:15:43.655-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:15:43.655-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:15:43.655-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:15:43.656-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:15:43.656-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: Push notification
+2023-01-02T18:15:43.657-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:15:43.659-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:15:43.659-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:15:43.660-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:15:43.661-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : Channel: Email
+2023-01-02T18:15:43.661-05:00  INFO 11144 --- [http-nio-8080-exec-1] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:16:10.542-05:00  INFO 17652 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 17652 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T18:16:10.545-05:00  INFO 17652 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T18:16:10.589-05:00  INFO 17652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02T18:16:10.589-05:00  INFO 17652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02T18:16:11.523-05:00  INFO 17652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T18:16:11.533-05:00  INFO 17652 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T18:16:11.533-05:00  INFO 17652 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T18:16:11.579-05:00  INFO 17652 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T18:16:11.580-05:00  INFO 17652 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 989 ms
+2023-01-02T18:16:11.933-05:00  INFO 17652 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T18:16:11.967-05:00  INFO 17652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T18:16:11.973-05:00  INFO 17652 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.8 seconds (process running for 2.424)
+2023-01-02T18:16:17.909-05:00  INFO 17652 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-02T18:16:17.909-05:00  INFO 17652 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-02T18:16:17.910-05:00  INFO 17652 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-02T18:16:17.949-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:16:17.950-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 02
+2023-01-02T18:16:17.950-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:16:17.950-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:16:17.950-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:16:17.950-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:16:17.950-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 02
+2023-01-02T18:16:17.951-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:16:17.951-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: Push notification
+2023-01-02T18:16:17.951-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:16:17.951-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:16:17.951-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:16:17.951-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:16:17.951-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: SMS
+2023-01-02T18:16:17.951-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:16:17.951-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:16:17.951-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:16:17.951-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:16:17.951-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: Push notification
+2023-01-02T18:16:17.951-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:16:17.952-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:16:17.952-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Notification already sent to: Usuario 03
+2023-01-02T18:16:17.952-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Content: hola
+2023-01-02T18:16:17.952-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : Channel: Email
+2023-01-02T18:16:17.952-05:00  INFO 17652 --- [http-nio-8080-exec-2] c.e.demo.services.NotificationService    : ======================================
+2023-01-02T18:53:58.745-05:00  INFO 17652 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+2023-01-02T18:53:58.766-05:00  INFO 17652 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-02T18:53:58.768-05:00  INFO 17652 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-02T18:53:58.926-05:00  INFO 17652 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 17652 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T18:53:58.927-05:00  INFO 17652 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T18:53:59.134-05:00  INFO 17652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T18:53:59.135-05:00  INFO 17652 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T18:53:59.135-05:00  INFO 17652 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T18:53:59.149-05:00  INFO 17652 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T18:53:59.150-05:00  INFO 17652 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 218 ms
+2023-01-02T18:53:59.160-05:00  WARN 17652 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'notificationController' defined in file [D:\Proyectos\Artemisa\notify\target\classes\com\example\demo\controllers\NotificationController.class]: Post-processing of merged bean definition failed
+2023-01-02T18:53:59.160-05:00  INFO 17652 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-02T18:53:59.166-05:00  INFO 17652 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-01-02T18:53:59.182-05:00 ERROR 17652 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'notificationController' defined in file [D:\Proyectos\Artemisa\notify\target\classes\com\example\demo\controllers\NotificationController.class]: Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.1.jar:3.0.1]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.1.jar:3.0.1]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.demo.controllers.NotificationController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@600ccb18]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:740) ~[spring-core-6.0.3.jar:6.0.3]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:672) ~[spring-core-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:340) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:321) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:277) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1082) ~[spring-beans-6.0.3.jar:6.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573) ~[spring-beans-6.0.3.jar:6.0.3]
+	... 18 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/example/demo/services/NotificationService
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3353) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2424) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:735) ~[spring-core-6.0.3.jar:6.0.3]
+	... 24 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.example.demo.services.NotificationService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:495) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:474) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.0.1.jar:3.0.1]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	... 28 common frames omitted
+
+2023-01-02T18:54:01.086-05:00  INFO 17652 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 17652 (D:\Proyectos\Artemisa\notify\target\classes started by kmilo in D:\Proyectos\Artemisa\notify)
+2023-01-02T18:54:01.087-05:00  INFO 17652 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T18:54:01.257-05:00  INFO 17652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T18:54:01.259-05:00  INFO 17652 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T18:54:01.260-05:00  INFO 17652 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T18:54:01.280-05:00  INFO 17652 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-01-02T18:54:01.280-05:00  INFO 17652 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 192 ms
+2023-01-02T18:54:01.473-05:00  INFO 17652 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T18:54:01.486-05:00  INFO 17652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T18:54:01.489-05:00  INFO 17652 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.424 seconds (process running for 2271.939)
+2023-01-02T18:54:01.491-05:00  INFO 17652 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

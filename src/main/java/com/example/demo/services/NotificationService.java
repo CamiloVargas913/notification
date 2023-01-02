@@ -3,6 +3,7 @@ package com.example.demo.services;
 import com.example.demo.models.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,9 +14,11 @@ import org.slf4j.LoggerFactory;
 
 @Service
 public class NotificationService {
-    private static Logger logger = LoggerFactory.getLogger(NotificationService.class);
-    public void SendNotificaction(List<User> users, NotificationDTO data) {
-        logger.info("======================================");
+    @Autowired
+    private UserService userService;
+
+    public void SendNotificaction(NotificationDTO data) {
+        List<User> users = userService.FindUserCategory(data.categoriesList);
         users.forEach(user -> {
             user.channels.forEach(channel-> {
                 if(channel.id== Email.CHANNEL_ID){

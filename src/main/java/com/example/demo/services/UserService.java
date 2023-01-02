@@ -3,54 +3,57 @@ package com.example.demo.services;
 import com.example.demo.models.Category;
 import com.example.demo.models.TypeNotification;
 import com.example.demo.models.User;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.tomcat.util.json.JSONParser;
+import org.apache.tomcat.util.json.ParseException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class UserService {
-    public List<User> userList;
+    private List<User> userList;
 
-    public List<TypeNotification> chanels;
+    private List<TypeNotification> chanels;
 
-    public List<Category> subscripts;
+    private List<Category> subscripts;
 
-    public UserService() {
+    public UserService() throws FileNotFoundException, ParseException {
+
+        ObjectMapper mapper = new ObjectMapper();
         userList = new ArrayList<User>();
-        chanels = new ArrayList<TypeNotification>();
-        subscripts = new ArrayList<Category>();
-        var chanel = new TypeNotification();
-        chanel.id = 1;
-        chanel.nameTypeNotification = "SMS";
-        chanels.add(chanel);
-        chanels.add(chanel);
-
-        var subscrip = new Category();
-        subscrip.id = 1;
-        subscrip.nameCategory = "Movies";
-
-        subscripts.add(subscrip);
-        subscripts.add(subscrip);
-
-        var user1 = new User();
-        user1.id = 1;
-        user1.email = "usuario1@gmail.com";
-        user1.name = "Usuario 01";
-        user1.phoneNumber = "3124567891";
-        user1.channels = chanels;
-        user1.subscribed = subscripts;
-        userList.add(user1);
-        userList.add(user1);
+        try {
+            userList = mapper.readValue(new File("src\\main\\resources\\users.json"), new TypeReference<List<User>>(){});
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public List<User> GetAllusers() {
         return userList;
     }
 
-    public List<User> FindCategory(){
-        return null;
+    public List<User> FindUserCategory(List<Category> categories) {
+        List<User> userList2 = new ArrayList<User>();
+        categories.forEach(category -> {
+            userList.forEach(user -> {
+                user.subscribed.forEach(category1 -> {
+                    if(category1.id == category.id){
+                        userList2.add(user);
+                    }
+                });
+            });
+        });
+
+        return userList2.stream().distinct().collect(Collectors.toList());
     }
 }
