@@ -13,6 +13,8 @@ public class UserService {
         var user1 = new User();
         user1.id = 1;
         user1.Email = "usuario1@gmail.com";
+        user1.Name = "Usuario 01";
+        user1.PhoneNumber = "";
 
     }
 }
