@@ -1,12 +1,9 @@
 package com.example.demo.controllers;
 
-import com.example.demo.models.Prueba;
-import com.example.demo.services.PruebaService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
 import static org.junit.jupiter.api.Assertions.*;
