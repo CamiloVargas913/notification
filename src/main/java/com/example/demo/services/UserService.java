@@ -37,11 +37,11 @@ public class UserService {
 
         var user1 = new User();
         user1.id = 1;
-        user1.Email = "usuario1@gmail.com";
-        user1.Name = "Usuario 01";
-        user1.PhoneNumber = "3124567891";
-        user1.Channels = chanels;
-        user1.Subscribed = subscripts;
+        user1.email = "usuario1@gmail.com";
+        user1.name = "Usuario 01";
+        user1.phoneNumber = "3124567891";
+        user1.channels = chanels;
+        user1.subscribed = subscripts;
         userList.add(user1);
         userList.add(user1);
     }
