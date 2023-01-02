@@ -2,6 +2,10 @@ package com.example.demo.models;
 
 import java.util.List;
 
+/**
+ * This class defines a user
+ * @version: 02/01/2023
+ */
 public class User {
     public int id;
     public String name;

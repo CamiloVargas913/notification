@@ -10,6 +10,10 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Service related with user functionalities
+ * @version: 02/01/2023
+ */
 @Service
 public class UserService {
     public List<User> userList;
@@ -50,7 +54,7 @@ public class UserService {
         return userList;
     }
 
-    public List<User> FindCategory(){
+    public List<User> FindCategory() {
         return null;
     }
 }

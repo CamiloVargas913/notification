@@ -14,3 +14,46 @@
 2023-01-02T12:36:09.330-05:00  INFO 18428 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-01-02T12:36:09.331-05:00  INFO 18428 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2023-01-02T12:36:09.402-05:00 ERROR 18428 --- [http-nio-8080-exec-2] c.example.demo.services.PruebaService    : / by zero
+2023-01-02T16:19:23.701-05:00  INFO 828 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-02T16:19:23.702-05:00  INFO 828 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-02T16:19:23.704-05:00  INFO 828 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-01-02T17:03:14.878-05:00  INFO 828 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 15 class path changes (1 addition, 3 deletions, 11 modifications)
+2023-01-02T17:03:14.909-05:00  INFO 828 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-02T17:03:14.911-05:00  INFO 828 --- [Thread-11] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-02T17:03:17.028-05:00  INFO 828 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 828 (D:\Artemisa TECH nuevo\notify\notification\target\classes started by Usuario in D:\Artemisa TECH nuevo\notify\notification)
+2023-01-02T17:03:17.028-05:00  INFO 828 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T17:03:17.736-05:00  INFO 828 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T17:03:17.738-05:00  INFO 828 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T17:03:17.740-05:00  INFO 828 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T17:03:17.810-05:00  INFO 828 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T17:03:17.810-05:00  INFO 828 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 780 ms
+2023-01-02T17:03:17.998-05:00  INFO 828 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T17:03:18.013-05:00  INFO 828 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T17:03:18.019-05:00  INFO 828 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.066 seconds (process running for 9121.091)
+2023-01-02T17:03:18.021-05:00  INFO 828 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-02T17:03:19.429-05:00  INFO 828 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 17 class path changes (4 additions, 0 deletions, 13 modifications)
+2023-01-02T17:03:19.450-05:00  INFO 828 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-02T17:03:19.504-05:00  INFO 828 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 828 (D:\Artemisa TECH nuevo\notify\notification\target\classes started by Usuario in D:\Artemisa TECH nuevo\notify\notification)
+2023-01-02T17:03:19.504-05:00  INFO 828 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T17:03:19.613-05:00  INFO 828 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T17:03:19.614-05:00  INFO 828 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T17:03:19.615-05:00  INFO 828 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T17:03:19.628-05:00  INFO 828 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T17:03:19.628-05:00  INFO 828 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 123 ms
+2023-01-02T17:03:19.663-05:00  INFO 828 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T17:03:19.671-05:00  INFO 828 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T17:03:19.674-05:00  INFO 828 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.184 seconds (process running for 9122.745)
+2023-01-02T17:03:19.675-05:00  INFO 828 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-01-02T17:06:48.837-05:00  INFO 828 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-01-02T17:06:48.872-05:00  INFO 828 --- [Thread-23] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-02T17:06:48.944-05:00  INFO 828 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19.0.1 with PID 828 (D:\Artemisa TECH nuevo\notify\notification\target\classes started by Usuario in D:\Artemisa TECH nuevo\notify\notification)
+2023-01-02T17:06:48.944-05:00  INFO 828 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-02T17:06:49.046-05:00  INFO 828 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-02T17:06:49.047-05:00  INFO 828 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-02T17:06:49.047-05:00  INFO 828 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-02T17:06:49.062-05:00  INFO 828 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-02T17:06:49.063-05:00  INFO 828 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 118 ms
+2023-01-02T17:06:49.108-05:00  INFO 828 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-02T17:06:49.117-05:00  INFO 828 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02T17:06:49.121-05:00  INFO 828 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.192 seconds (process running for 9332.192)
+2023-01-02T17:06:49.123-05:00  INFO 828 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
