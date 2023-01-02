@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class NotificationService {
-    private static Logger logger = LoggerFactory.getLogger(NotificationService.class);
+//    private static Logger logger = LoggerFactory.getLogger(NotificationService.class);
 
     public void SendNotificactio(NotificationDTO data) {
 

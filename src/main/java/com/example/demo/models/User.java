@@ -7,7 +7,7 @@ public class User {
     public String Name;
     public String Email;
     public String PhoneNumber;
-    public Categorie Subscribed;
-    public TypeNotification Channels;
+    public List<Category> Subscribed;
+    public List<TypeNotification> Channels;
 
 }
