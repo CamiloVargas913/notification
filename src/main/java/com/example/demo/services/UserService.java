@@ -9,20 +9,19 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+
 @Service
 public class UserService {
+    public List<User> userList;
+
+    public List<TypeNotification> chanels;
+
+    public List<Category> subscripts;
 
     public UserService() {
-
-    }
-
-    public List<User> GetAllusers() {
-
-         List<User> userList=  new ArrayList<User>();
-
-         List<TypeNotification> chanels = new ArrayList<TypeNotification>();
-
-         List<Category> subscripts = new ArrayList<Category>();
+        userList = new ArrayList<User>();
+        chanels = new ArrayList<TypeNotification>();
+        subscripts = new ArrayList<Category>();
         var chanel = new TypeNotification();
         chanel.id = 1;
         chanel.nameTypeNotification = "SMS";
@@ -45,6 +44,13 @@ public class UserService {
         user1.subscribed = subscripts;
         userList.add(user1);
         userList.add(user1);
+    }
+
+    public List<User> GetAllusers() {
         return userList;
+    }
+
+    public List<User> FindCategory(){
+        return null;
     }
 }

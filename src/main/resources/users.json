@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "Name": "Usuario 01",
+    "Email": "usuario1@gmail.com",
+    "PhoneNumber": "3124567891",
+    "Subscribed": [
+      {
+        "id": 1,
+        "nameCategory": "Movies"
+      },
+      {
+        "id": 2,
+        "nameCategory": "Sports"
+      }
+    ],
+    "Channels": [
+      {
+        "id": 1,
+        "nameTypeNotification": "SMS"
+      },
+      {
+        "id": 2,
+        "nameTypeNotification": "Mail"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "Name": "Usuario 02",
+    "Email": "usuario02@gmail.com",
+    "PhoneNumber": "3124567891",
+    "Subscribed": [
+      {
+        "id": 3,
+        "nameCategory": "Finance"
+      },
+      {
+        "id": 2,
+        "nameCategory": "Sports"
+      }
+    ],
+    "Channels": [
+      {
+        "id": 1,
+        "nameTypeNotification": "SMS"
+      },
+      {
+        "id": 3,
+        "nameTypeNotification": "Push"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "Name": "Usuario 03",
+    "Email": "usuario03@gmail.com",
+    "PhoneNumber": "3124567891",
+    "Subscribed": [
+      {
+        "id": 3,
+        "nameCategory": "Finance"
+      },
+      {
+        "id": 2,
+        "nameCategory": "Sports"
+      },
+      {
+        "id": 1,
+        "nameCategory": "Movies"
+      }
+    ],
+    "Channels": [
+      {
+        "id": 1,
+        "nameTypeNotification": "SMS"
+      },
+      {
+        "id": 3,
+        "nameTypeNotification": "Push"
+      },
+      {
+        "id": 2,
+        "nameTypeNotification": "Mail"
+      }
+    ]
+  }
+
+]
