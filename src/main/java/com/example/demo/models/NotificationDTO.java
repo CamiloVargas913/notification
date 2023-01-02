@@ -4,5 +4,5 @@ import java.util.List;
 
 public class NotificationDTO {
     public String message;
-    public List<Categorie> categoriesList;
+    public List<Category> categoriesList;
 }
