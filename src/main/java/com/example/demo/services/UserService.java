@@ -46,7 +46,6 @@ public class UserService {
         return userList;
     }
 
-<<<<<<< HEAD
     public List<User> FindUserCategory(List<Category> categories) {
         List<User> userList2 = new ArrayList<User>();
         categories.forEach(category -> {
@@ -60,9 +59,5 @@ public class UserService {
         });
 
         return userList2.stream().distinct().collect(Collectors.toList());
-=======
-    public List<User> FindCategory() {
-        return null;
->>>>>>> fe40fb1645400fa396448bceb276960324b09fe8
     }
 }
