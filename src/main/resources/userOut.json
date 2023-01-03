@@ -22,32 +22,6 @@
     ]
   },
   {
-    "id": 2,
-    "name": "Usuario 02",
-    "email": "usuario02@gmail.com",
-    "phoneNumber": "3124567891",
-    "subscribed": [
-      {
-        "id": 3,
-        "nameCategory": "Finance"
-      },
-      {
-        "id": 2,
-        "nameCategory": "Sports"
-      }
-    ],
-    "channels": [
-      {
-        "id": 1,
-        "nameTypeNotification": "SMS"
-      },
-      {
-        "id": 3,
-        "nameTypeNotification": "Push"
-      }
-    ]
-  },
-  {
     "id": 3,
     "name": "Usuario 03",
     "email": "usuario03@gmail.com",
