@@ -19,18 +19,11 @@ import org.slf4j.LoggerFactory;
  */
 @Service
 public class NotificationService {
-<<<<<<< HEAD
     @Autowired
     private UserService userService;
 
     public void SendNotificaction(NotificationDTO data) {
         List<User> users = userService.FindUserCategory(data.categoriesList);
-=======
-    private static Logger logger = LoggerFactory.getLogger(NotificationService.class);
-
-    public void SendNotificaction(List<User> users, NotificationDTO data) {
-        logger.info("======================================");
->>>>>>> fe40fb1645400fa396448bceb276960324b09fe8
         users.forEach(user -> {
             user.channels.forEach(channel -> {
                 if (channel.id == Email.CHANNEL_ID) {
