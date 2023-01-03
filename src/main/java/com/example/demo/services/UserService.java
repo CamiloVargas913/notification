@@ -30,7 +30,10 @@ public class UserService {
     private List<TypeNotification> chanels;
 
     private List<Category> subscripts;
-
+    /**
+     * Service related with user functionalities
+     * @version: 02/01/2023
+     */
     public UserService() throws FileNotFoundException, ParseException {
 
         ObjectMapper mapper = new ObjectMapper();
@@ -41,11 +44,11 @@ public class UserService {
             throw new RuntimeException(e);
         }
     }
-
-    public List<User> GetAllusers() {
-        return userList;
-    }
-
+    /**
+     * Method that search users depending on the incoming categories
+     * @version: 02/01/2023
+     * @return List<User> users list
+     */
     public List<User> FindUserCategory(List<Category> categories) {
         List<User> userList2 = new ArrayList<User>();
         categories.forEach(category -> {
